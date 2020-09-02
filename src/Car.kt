@@ -1,6 +1,10 @@
 import kotlin.math.roundToInt
 
 // Naming according to the rules?
+// once I tried to create->share-clone-change-push-clone...
+// (round-tripping two machines) a single file. This should
+// be the same with a project. That's what git was made for.
+
 open class Car(make: String, model: String, mpg: Double) {
     val tankSize = 15.25 // gallons
     open val image = ""
