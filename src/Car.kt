@@ -6,8 +6,6 @@ import kotlin.math.roundToInt
 // be the same with a project. That's what git was made for.
 // (editing via browser on github is possible as well)
 
-// need a reason for 'commit' to show up in a menu?
-
 open class Car(make: String, model: String, mpg: Double) {
     val tankSize = 15.25 // gallons
     open val image = ""
