@@ -4,7 +4,7 @@ import kotlin.math.roundToInt
 // once I tried to create->share-clone-change-push-clone...
 // (round-tripping two machines) a single file. This should
 // be the same with a project. That's what git was made for.
-// (editing via browser [on any machine!] on github is possible as well)
+// (editing via browser on github is possible as well)
 
 open class Car(make: String, model: String, mpg: Double) {
     val tankSize = 15.25 // gallons
